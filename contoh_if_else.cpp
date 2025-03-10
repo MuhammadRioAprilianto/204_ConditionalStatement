@@ -6,7 +6,7 @@ double alas, tinggi, luas;
 void procedureInput(){
     cout << "masukkan alasnya = ";
     cin >> alas;
-    
+
     cout << "masukkan tingginya = ";
     cin >> tinggi;
 }
@@ -16,7 +16,7 @@ double hitungLuas2(double a, double t){
 }
 
 string ukuranSegitiga(double l){
-    if(l > 60){
+    if (l>60){
         return "besar";
     }
     else{
@@ -25,7 +25,7 @@ string ukuranSegitiga(double l){
 }
 
 void procedureOutput2(){
-    cout << "luas segitiga 2 = " << ukuranSegitiga(hitungLuas2(alas, tinggi)) << endl;
+    cout << "luas segitiga = " << ukuranSegitiga(hitungLuas2(alas, tinggi)) << endl;
 }
 int main(){
     procedureInput();
